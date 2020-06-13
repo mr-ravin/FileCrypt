@@ -2,7 +2,7 @@
 
 ![FileCrypt Logo](https://github.com/mr-ravin/FileCrypt/blob/master/ic_launcher.png)
 
-FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. When encryption is performed on < filename >, then its encrypted file is created with the name: < filename.filecrypt >. Similarly, when decryption is performed on < filename.filecrypt >, it generates back the original file with the name < fc_filename > . Source code of version 1 is available in FileCrypt_v1.zip. It performs encryption /decryption on files without deleting the inputed file (i.e. original file in case of encryption, and encrypted file in case of decryption.) FileCrypt uses AES-128 bit with CBC, it is considered better for providing security for general use cases, please do consult your cybersecurity adviser if looking for a very specific usecase.
+FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. When encryption is performed on < filename >, then its encrypted file is created with the name: < filename.filecrypt >. Similarly, when decryption is performed on < filename.filecrypt >, it generates back the original file with the name < fc_filename > . Source code of version 1 is available in "src" directory. It performs encryption /decryption on files without deleting the inputed file (i.e. original file in case of encryption, and encrypted file in case of decryption.) FileCrypt uses AES-128 bit with CBC, it is considered better for providing security for general use cases, please do consult your cybersecurity adviser if looking for a very specific usecase.
  
 ##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
 
