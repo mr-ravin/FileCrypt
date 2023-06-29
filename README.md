@@ -15,7 +15,7 @@ Steps to follow, for android target sdk 29-
 ```
 1. After Installation, provide the File and Media permission, otherwise app will crash at startup.
 2. Encrypted file will be stored extension of ".filecrypt".
-3. Decrypted file will be stored inside Documents folder with original filename.
+3. Decrypted file will be stored with original filename.
 ```
 
 Note- This app does not delete or remove the input file used for encryption or decryption; Instead, this app writes the file generated after encryption/decryption operation.
