@@ -2,16 +2,29 @@
 
 ![FileCrypt Logo](https://github.com/mr-ravin/FileCrypt/blob/master/ic_launcher.png)
 
-FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. When encryption is performed on < filename >, then its encrypted file is created with the name: < filename.filecrypt >. Similarly, when decryption is performed on < filename.filecrypt >, it generates back the original file with the name < fc_filename > . Source code of version 1 is available in "src" directory. It performs encryption /decryption on files without deleting the inputed file (i.e. original file in case of encryption, and encrypted file in case of decryption.) FileCrypt uses AES-128 bit with CBC, it is considered better for providing security for general use cases, please do consult your cybersecurity adviser if looking for a very specific usecase.
+FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. 
 
-Note: In some device, a manual permission for storage read-write might be required, else this app will crash at the time of start.
- 
+Steps to follow, for target sdk 29-
+1. After Installation, provide the File and Media permission, otherwise app will crash at startup.
+2. Encrypted file will be stored extension of ".filecrypt".
+3. Decrypted file will be stored inside Documents folder with original filename.
+
+Steps to follow, for target sdk 33-
+1. After Installation, provide the File and Media permission, otherwise app will crash at startup.
+2. Encrypted file will be stored inside Documents folder with name FileCrypt_filename.
+3. Decrypted file will be stored inside Documents folder with original filename.
+
+Note- This app does not delete or remove the input file used for encryption or decryption; Instead, this app writes the file generated after encryption/decryption operation.
+
 ##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
 
 ##### Algorithm Detail: AES-128 bit (using AES/CBC/PKCS5Padding and PBKDF2WithHmacSHA1)
  
-#### Download FileCrypt from Google PlayStore:
+#### Download FileCrypt from Google PlayStore, Target SDK=29:
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.developer.filecrypt)
+
+#### Download FileCrypt from Google PlayStore, Target SDK=33:
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.dev.filecrypt)
 
 #### Working Demonstration:
 
