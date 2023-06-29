@@ -19,12 +19,12 @@ Note- This app does not delete or remove the input file used for encryption or d
 ##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
 
 ##### Algorithm Detail: AES-128 bit (using AES/CBC/PKCS5Padding and PBKDF2WithHmacSHA1)
- 
-#### Download FileCrypt from Google PlayStore, Target SDK=29:
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.developer.filecrypt)
 
-#### Download FileCrypt from Google PlayStore, Target SDK=33:
+1. ##### Download FileCrypt from Google PlayStore, Target SDK=33:
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.dev.filecrypt)
+
+2. ##### Download FileCrypt from Google PlayStore, Target SDK=29:
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.developer.filecrypt)
 
 #### Working Demonstration:
 
