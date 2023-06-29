@@ -55,7 +55,7 @@ People often select it around 100,000.
 ##### Note: In the source code, the code of RealPathUtil.java is taken from [link](https://gist.github.com/tatocaster/32aad15f6e0c50311626), which was made opensourced by [Merab Tato Kutalia](https://github.com/tatocaster). This file is used to retrieve file path from uri. 
 
 ```python
-Copyright (c) 2019 Ravin Kumar
+Copyright (c) 2019-2023 Ravin Kumar
 Website: https://mr-ravin.github.io
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation 
