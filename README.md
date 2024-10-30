@@ -4,6 +4,10 @@
 
 FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. 
 
+##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
+
+----
+
 Steps to follow, for android target sdk 33-
 ```
 1. After Installation, provide the File and Media permission, otherwise app will crash at startup.
@@ -20,15 +24,31 @@ Steps to follow, for android target sdk 29-
 
 Note- This app does not delete or remove the input file used for encryption or decryption; Instead, this app writes the file generated after encryption/decryption operation.
 
-##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
+----
 
 ##### Algorithm Detail: AES-128 bit (using AES/CBC/PKCS5Padding and PBKDF2WithHmacSHA1)
 
 1. ##### Download FileCrypt from Google PlayStore, Target SDK=33:
+   
+|Target OS Details|Number|
+|-----------------|------|
+| Android OS Version| 13 |
+| Android Target SDK| 33 |
+| API Levels        | 26+ |
+
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.dev.filecrypt)
 
 2. ##### Download FileCrypt from Google PlayStore, Target SDK=29:
+   
+|Target OS Details|Number|
+|-----------------|------|
+| Android OS Version| 10 |
+| Android Target SDK| 29 |
+| API Levels        | 16+ |
+
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="30%" height="30%" target="_blank">](https://play.google.com/store/apps/details?id=ravin.developer.filecrypt)
+
+---
 
 #### Working Demonstration:
 
