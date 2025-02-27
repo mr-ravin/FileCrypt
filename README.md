@@ -5,6 +5,7 @@
 FileCrypt is an opensource android application able to perform AES-128 bit encryption on all types of files. 
 
 ##### Application Developer: [Ravin Kumar](http://mr-ravin.github.io)
+##### Github repository: https://github.com/mr-ravin/FileCrypt
 
 ----
 
